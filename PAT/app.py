@@ -142,9 +142,5 @@ try:
 
         speak_text(response)
 
-        s = input("続けますか？(y/n):")
-        if s == str("n"):
-            break
-
 finally:
     audio.terminate()
